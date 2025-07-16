@@ -4,7 +4,7 @@ res = [[0] * 10 for _ in range(10)]
 dy = [-1, 1, 0, 0]
 dx = [0, 0, -1, 1]
 
-for i in range(10):
+for i in range(10): #wall
     for j in range(10):
         if board[i][j] == -1:
             res[i][j] = -1
@@ -12,8 +12,8 @@ for i in range(10):
 for i in range(10):
     for j in range(10):
         if board[i][j] > 0:
-            res[i][j] = -2 
-            power = board[i][j]
+            res[i][j] = -2 #water balloon
+            power = board[i][j] #distance of balloon
             for d in range(4):
                 for p in range(1, power + 1):
                     ny, nx = i + dy[d] * p, j + dx[d] * p
@@ -25,7 +25,7 @@ for i in range(10):
 n = int(input())
 status = []
 
-for pid in range(1, n + 1):
+for pid in range(1, n + 1): #pid == player id
     x, y = map(int, input().split())
     x -= 1
     y -= 1
