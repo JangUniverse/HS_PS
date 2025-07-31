@@ -1,7 +1,7 @@
 # HS_PS
 - 한성과학고등학교에서 진행하는 알고리즘 챌린지 대비 문제 연습장
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=meozigoon)](https://solved.ac/profile/janguniverse)
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=meozigoon)](https://solved.ac/profile/djsiui12)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=janguniverse)](https://solved.ac/profile/janguniverse)  
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=djsiui12)](https://solved.ac/profile/djsiui12)
 - 일단 `python`, 안되면 `pypy`(문법은 같음), 이것도 안되면 gpt한테 `C++`로 해 달라고 하기
 
 ## 명명법
