@@ -4,11 +4,11 @@
   
 ### JangUniverse
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=janguniverse)](https://solved.ac/profile/janguniverse)
-[![mazandi profile](http://mazandi.herokuapp.com/api?handle=janguniverse&theme=dark)](https://solved.ac/profile/meozigoon)
+[![mazandi profile](http://mazandi.herokuapp.com/api?handle=janguniverse&theme=dark)](https://solved.ac/profile/janguniverse)
 
 ### slsl 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=djsiui12)](https://solved.ac/profile/djsiui12)
-[![mazandi profile](http://mazandi.herokuapp.com/api?handle=djsiui12&theme=dark)](https://solved.ac/profile/meozigoon)
+[![mazandi profile](http://mazandi.herokuapp.com/api?handle=djsiui12&theme=dark)](https://solved.ac/profile/djsiui12)
 
 ## 명명법
 - 기본적으로 CodeUp 문제 숫자를 이용
