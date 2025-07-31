@@ -1,7 +1,7 @@
 # HS_PS
 - 한성과학고등학교에서 진행하는 알고리즘 챌린지 대비 문제 연습장
 - 일단 `python`, 안되면 `pypy`(문법은 같음), 이것도 안되면 gpt한테 `C++`로 해 달라고 하기
-- 개념서처럼 정리해놓은 유형 [링크](https://00ad-8e71-00ff-055d.tistory.com/), [쉽게 보기 좋은 유형](https://blog.naver.com/kks227)
+- 링크: [개념서처럼 정리해놓은 유형](https://00ad-8e71-00ff-055d.tistory.com/), [쉽게 보기 좋은 유형](https://blog.naver.com/kks227)
    
 ### JangUniverse
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=janguniverse)](https://solved.ac/profile/janguniverse)
