@@ -32,3 +32,14 @@ sys.setrecursionlimit(10**6) # 대충 큰 수
 
 ## C언어로 풀어야 하는 문제들
 - `1430`, `3014`
+
+#처음보는 문법
+## lambda
+`sort(lambda)`는 `lambda` 다음에 오는 매개변수를 기준으로 정렬하는 문법임.  
+ex. `li.sort(key = lambda x: x[0])`이면 `x[0]`을 기준으로 정렬, `li.sort(key = lambda x: (x[1], x[0]))`이면 x[1]로 정렬하다가 같은 값을 만났을 경우에 x[0]에 대해서 정리하는 거  
+--> 도서관 정렬과 비슷함.
+
+## 라이브러리들
+아니 개좋은 라이브러리 개많네
+``from collections import deque``
+``from bisect import bisect_left``
