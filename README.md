@@ -33,13 +33,31 @@ sys.setrecursionlimit(10**6) # 대충 큰 수
 ## C언어로 풀어야 하는 문제들
 - `1430`, `3014`
 
-#처음보는 문법
+# 처음보는 문법
 ## lambda
 `sort(lambda)`는 `lambda` 다음에 오는 매개변수를 기준으로 정렬하는 문법임.  
 ex. `li.sort(key = lambda x: x[0])`이면 `x[0]`을 기준으로 정렬, `li.sort(key = lambda x: (x[1], x[0]))`이면 x[1]로 정렬하다가 같은 값을 만났을 경우에 x[0]에 대해서 정리하는 거  
 --> 도서관 정렬과 비슷함.
 
-## 라이브러리들
-아니 개좋은 라이브러리 개많네
+# Python 언어 문제 풀 때 팁  
+python 언어가 PS 할 때 너무 쓰레기이므로, 이런 스킬을 써야 함.
+
+## import 적극 활용
+```
+import sys  
+input = sys.stdin.readline
+```
+개행 문자 입력 받는 코드, 단점은 ``Hello, world!``를 입력받으면 ``Hello, world!\n``으로 들어옴.  
+
+--> int 받을 때 주로 쓰면 됨  
+``sys.setrecursionlimit(10**6)``
+재귀 호출 횟수 늘리기  
+
 ``from collections import deque``
-``from bisect import bisect_left``
+덱 만들기 --> 구현한 queue보다 빠름
+
+``from bisect import bisect_left``  
+이분 탐색 알고리즘 구현하기 편함 
+
+``import heapq``  
+우선순위 큐 구현하기 편함 
