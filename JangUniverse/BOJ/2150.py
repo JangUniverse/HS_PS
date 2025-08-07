@@ -1,5 +1,5 @@
 import sys
-sys.setrecursionlimit(1000000)
+sys.setrecursionlimit(10**6)
 input=sys.stdin.readline
 
 # strongly connected component 티스토리
